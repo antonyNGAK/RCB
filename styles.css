@@ -1,0 +1,239 @@
+/* Styles de base */
+body {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1969d3;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.logoHeader {
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 0%;
+    background: transparent;
+}
+/* Style pour cacher les sous-menus par défaut
+.submenu {
+  display: none;
+  text-align: center;
+}*/
+
+/* Style pour afficher les sous-menus lorsqu'ils sont actifs
+.submenu.active {
+  display: block;
+}*/
+
+
+.social-link img {
+	width: 20px;
+}
+.top-header {
+	background-color: white;
+	position: sticky;
+	top:0;
+	z-index: 1000;
+	display: flex;
+	justify-content: space-between;
+	padding-inline: 100px;
+	padding-block: 30px;
+	align-items: center;
+}
+
+.top-header .name {
+	font-size: 26px;
+}
+
+
+
+/* Styles CSS personnalisés pour le slider */
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  height: 800px;
+}
+
+.slider {
+  width: auto;
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+  opacity: 0.; /* Ajustez l'opacité selon vos préférences */
+}
+
+.slider-text {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  z-index: 1; /* Mettez le texte au-dessus du slider */
+}
+
+.slider-text h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.slider-text p {
+  font-size: 1.2em;
+  margin: 0;
+}
+.actu{
+ text-align: center;
+ margin-right: 100px;
+ flex-direction: column;
+ font-size: 40px;
+}
+
+.event{
+  text-align: center;
+  font-size: 35px;
+}
+
+.listeEvent{
+  font-size: 25px;
+}
+
+/* Contenu suivant (peut être une section, un article, etc.) */
+.content {
+  padding: 20px;
+  background-color: #f4f4f4;
+  z-index: 2; /* Assurez-vous que le contenu est au-dessus du slider */
+}
+
+.GriseColor {
+    background-color: #f2f2f2;
+  }
+
+.sectionAccueil {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#about {
+	display: flex;
+	background-color: #d4d1cf;
+	padding-inline: 100px;
+	padding-block: 100px;
+	position: relative;
+  height: 500px;
+}
+#about-me {
+	flex: 2;
+}
+.about-me__title {
+	margin-top: 1em;
+	margin-bottom: 60px;
+	font-size: 40px;
+  margin-left: 60px;
+}
+.about-me__introduction {
+	font-family: 'Spectral';
+	font-weight: 800;
+	font-style: italic;
+	width: 60%;
+  margin-left: 50px;
+}
+#about-me p {
+	width: 80%;
+	font-size: 17px;
+  margin-left: 25px;
+
+}
+
+/* Style pour les menus déroulants */
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.footer {
+    
+    padding: 100px 0;
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    margin-bottom: auto;
+   
+  }
+  .flexColumnCentre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.taillepremier-block {
+    height: 150px;
+  }
+  .marge1 {
+    margin-left: 5%;
+  }
+  
+  .marge3 {
+    margin-right: 15%;
+  }
+
+  .divlienFoot {
+    height: 30px;
+  }
+
+  .footerlien {
+    color: rgb(252, 247, 247);
+  }
+  
+
+/* Styles spécifiques */
+/* Ajoutez ici des styles spécifiques pour chaque section du site */

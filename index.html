@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Racing Club de Bordeaux</title>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+    <link rel="stylesheet" href="styles.css">
+    
+
+    <style>
+        /* Style pour la modale #Pour un aperçu visuel*/
+        .modal {
+            display: none;
+            position: absolute;
+            background-color: #7b7676;
+            /* Fond blanc pour la modale */
+            border: 1px solid #ccc;
+            /* Bordure autour de la modale */
+            padding: 10px;
+            /* Espacement interne de la modale */
+            z-index: 1000;
+            /* Pour s'assurer que la modale est au-dessus de tout */
+        }
+
+        .submenu {
+            list-style: none;
+            /* Supprime les puces des sous-menus */
+            padding: 0;
+            /* Supprime les marges internes des sous-menus */
+        }
+
+        .submenu li {
+            margin-bottom: 5px;
+            /* Espacement entre les éléments du sous-menu */
+        }
+
+        .submenu li a {
+            text-decoration: none;
+            /* Supprime les soulignements des liens */
+            color: #131212;
+            /* Couleur de texte par défaut */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Racing Club de Bordeaux</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#">Équipes</a>
+                    <div class="modal">
+                        <ul class="submenu">
+                            <li><a href="#">Sénior A</a></li>
+                            <li><a href="#">Sénior B</a></li>
+                            <li><a href="#">Féminines</a></li>
+                            <li><a href="#">Ecole de foot</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Calendrier</a>
+                    <div class="modal">
+                        <ul class="submenu">
+                            <li><a href="club.html">Equipe Fanion</a></li>
+                            <li><a href="#">Réserve</a></li>
+                            <li><a href="#">Sénior Dame</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Club</a>
+                    <div class="modal">
+                        <ul class="submenu">
+                            <li><a href="#">Bureaux</a></li>
+                            <li><a href="#">Historiques</a></li>
+                            <li><a href="#">Univers RCB</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+
+            <li><a class="social-link" href="https://www.instagram.com/rcbm33?igsh=MTB6eHU5bTU3NGltNA=="
+                    target="_blank"><img src="Logo/instagram.webp" alt="logo instagram"></a></li>
+            <li><a class="social-link" href="https://www.facebook.com/RacingClubBordeaux" target="_blank"><img
+                        src="Logo/square-facebook-svg.webp" alt="logo facebook"></a></li>
+            <li><a class="social-link" href="https://www.tiktok.com/@rcbm33?_t=8jj9j3MtbhR&_r=1" target="_blank"><img
+                        src="Logo/tiktok-svg.webp" alt="logo tiktok"></a></li>
+
+        </nav>
+    </header>
+    <section>
+        <div class="slider-container">
+            <div class="slider">
+                <div><img src="Diaporama/FB_IMG_1707440412448.webp" alt="Image 1"></div>
+                <div><img src="imagesSeniors/SeniorA.jpg" alt="Image 2"></div>
+                <div><img src="Diaporama/FB_IMG_1707440078645.webp" alt="Image 3"></div>
+                <div><img src="Diaporama/FB_IMG_1707439952794.webp" alt="Image 5"></div>
+                <div><img src="Diaporama/FB_IMG_1707440277757.webp" alt="Image 6"></div>
+                <div><img src="Diaporama/FB_IMG_1707440290857.webp" alt="Image 7"></div>
+                <div><img src="Diaporama/FB_IMG_1707440522506.webp" alt="Image 8"></div>
+                <div><img src="Diaporama/FB_IMG_1707440559587.webp" alt="Image 9"></div>
+                <div><img src="Diaporama/FB_IMG_1707440242370.webp" alt="Image 10"></div>
+                <div><img src="Diaporama/FB_IMG_1707440770559.webp" alt="Image 11"></div>
+
+                <!-- Suite des diapositives si absence d'API Back pour alimenter le slider -->
+            </div>
+            <div class="slider-text">
+                <h2>Bienvenue sur notre site web !</h2>
+                <p>Découvrez l'univers du Racing Club de Bordeaux.</p>
+            </div>
+        </div>
+    </section>
+
+    <aside id="about">
+        <div class="picture left">
+            <img src="./Logo/FB_IMG_1707440770559 (2).webp" alt="Mot du président">
+        </div>
+        <div id="about-me">
+            <h2 class="about-me__title">Claude BOUDAT Président du Racing</h2>
+            <h3 class="about-me__introduction" aria-label="Introduction">
+                » Je souhaite à chacun des clubs de notre District le meilleur pour cette nouvelle année : des buts, des
+                victoires, du plaisir sur et en dehors des terrains. Bravo en tout cas pour l’investissement continu que
+                vous déployez en direction du football meurthe-et-mosellan.
+
+            </h3>
+            <p aria-label="text">
+                Je forme le vœu que votre District vous accompagne du mieux possible dans vos différents projets. Mon
+                équipe et moi-même restons à votre disposition pour tout échange.
+                2024 sera une année particulièrement importante pour les instances avec des élections pour renouveler
+                les comités directeurs de la FFF, de la LGEF et du District.
+                Une année importante aussi pour le devenir de notre Ligue : sur ce sujet, vous devrez vous positionner
+                par rapport au souhait du District d’Alsace de sortir de la LGEF. J’ai vu passer un sondage à
+                l’initiative d’un président de club de notre District. Il est effectivement essentiel que chacun puisse
+                s’exprimer. C’est la raison pour laquelle j’avais moi-même prévu de vous questionner. Je le ferai à un
+                moment plus approprié, c’est-à-dire lorsque vous aurez tous les éléments en mains pour faire un choix
+                éclairé. Je souhaite ensuite que les délégués du District à l’assemblée générale de Ligue suivent, de
+                façon proportionnée, votre volonté.
+                Le foot se construit dans les clubs, votre avis est donc crucial et doit être respecté. Candidat à la
+                présidence de la LGEF, je vous adresserai ultérieurement mon projet dans lequel, vous le verrez, figure
+                la mise en place d’un conseil des présidents de club qui permettra d’améliorer encore les échanges entre
+                clubs et instances.
+                N’hésitez pas à prendre contact avec moi et à me partager vos réflexions et suggestions constructives.
+                Salutations sportives dévouées et encore Bonne année !
+            </p>
+        </div>
+    </aside>
+
+    <section class="actu">
+        <h3>Actualités</h3>
+        <h4>Découvrez les dernières actus.</h4>
+            <p>Accenderat super his incitatum propositum ad nocendum aliqua mulier vilis, quae ad palatium ut poposcerat
+                intromissa insidias ei latenter obtendi prodiderat a militibus obscurissimis. quam Constantina exultans
+                ut in tuto iam locata mariti salute muneratam vehiculoque inpositam per regiae ianuas emisit in
+                publicum, ut his inlecebris alios quoque ad indicanda proliceret paria vel maiora.</p>
+
+    </section>
+
+    <!-- D'autres sections pour les équipes, le calendrier, les membres, etc. -->
+
+    <section>
+        <h5 class="event">Evénement</h5>
+        <ul class="listeEvent">
+            <li>Et eodem impetu Domitianum praecipitem per scalas</li>
+            <li>Quam ob rem cave Catoni anteponas ne istum quidem</li>
+            <li>At nunc si ad aliquem bene nummatum tumentemque</li>
+            <li>Saepissime igitur mihi de amicitia cogitanti</li>
+            <li>Quod cum ita sit, paucae domus studiorum seriis</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Racing Club de Bordeaux</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

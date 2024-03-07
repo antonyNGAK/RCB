@@ -1,0 +1,86 @@
+body {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Diaporama/FB_IMG_1707440770559.webp');
+}
+
+header {
+    background-color: #1969d3;
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+    position: relative;
+    z-index: 2;
+}
+
+.logoHeader {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 0%;
+    background: transparent;
+}
+#menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+/* Style pour le reste de la navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style pour les menus déroulants */
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown a {
+    display: block;
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Style pour les écrans étroits (mobiles) */
+    ul {
+        display: none;
+        width: 100%;
+    }
+
+    #menu-icon {
+        display: block;
+        float: left;
+        margin: 14px 16px;
+        color: white;
+        font-size: 20px;
+    }
+
+    .dropdown {
+        display: block;
+        width: 100%;
+    }
+}
